@@ -152,3 +152,14 @@ for i in range(2,20,2):
    if i == 16:
       break
    print(i)  
+
+#?    function 
+
+def hello():
+   print("Hello, World!")   
+   hello()
+
+
+   def stdInfo(name, age, cgpa):
+      print(f"Name: {name}, Age: {age}, CGPA: {cgpa}")
+   stdInfo("Rijoan Rashid Opar", 18, 3.80)
