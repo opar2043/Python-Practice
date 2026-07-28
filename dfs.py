@@ -8,13 +8,15 @@ graph = {
 }
 
 visited = set()
-print("===DFS===")
+print("=== DFS ===")
 def dfs(graph , node):
     if node not in visited:
         print(node , end=" ")
         visited.add(node)
 
         for negibhor in graph[node]:
-            dfs(graph , negibhor)
+          dfs(graph , negibhor)
 
-dfs(graph, "A")             
+dfs(graph, "A")      
+
+        

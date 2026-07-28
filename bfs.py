@@ -9,9 +9,7 @@ graph = {
 
 print(graph["A"])
 
-
-
-# bfs(graph, "B") 
+ 
 print("=== BFS ===")
 def bfs(graph , start):
     visited = []
@@ -26,6 +24,6 @@ def bfs(graph , start):
 
         for negibhor in graph[node] :
            queue.append(negibhor)
-        # print("Queue" , queue)
+       
 
-bfs(graph , "A")
+# bfs(graph , "A")
